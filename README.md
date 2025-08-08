@@ -27,8 +27,16 @@ The system retrieves the most relevant information from the PDF and uses the LLM
 - **Vector Database:** e.g., Pinecone  
 - **Language:** JavaScript  
 
+## .env file
+- **GEMINI_API_KEY** = ADD YOUR APIKEY. 
+- **PINECONE_API_KEY** = ADD YOUR APIKEY
+- **PINECONE_ENVIRONMENT** = ADD YOUR APIKEY
+- **PINECONE_INDEX_NAME** = ADD YOUR APIKEY
+
+
 ## Features  
 - Load and process any PDF for context-based Q&A.  
 - Handles long documents by chunking text.  
 - Uses vector similarity search for fast, accurate retrieval.  
 - Generates fact-based answers from the provided PDF, reducing hallucinations.  
+
